@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Agregar Servicio | Uñas Bellas</title>
+</head>
+
+<body>
+    <header>     
+        <div class="header">
+            <h1>Uñas Bellas</h1>
+            <p>El mejor sitio para cuidar sus manos y pies.</p>
+            <img src="img/logo.png" alt="logo">  
+        </div>   
+        <div class="topnav">            
+            <ul>
+                <li><a href="index.html">Inicio</a> </li>
+                <li><a href="combo.html">Crear Combo</a></li>
+                <li><a href="servicio.html">Agregar Servicio</a></li>                
+            </ul>                    
+        </div>              
+    </header>
+    <br><br>
+    <div class="formulario">
+        <form class="servicio">
+            <label for="codigo">Código:</label><br>
+            <input type="text" id="codigo" name="codigo"><br><br>
+
+            <label for="descripcion">Descripción:</label><br>
+            <textarea name="message" rows="10" cols="25"></textarea> <br><br>
+            
+            <label for="costo">Costo:</label><br>
+            <input type="text" id="costo" name="costo"><br><br>
+    
+            <label for="acabados">Acabado:</label><br>
+            <select id="acabados" name="Acabados"><br><br>
+                <option value="natural">Natural</option>
+                <option value="resina">Resina</option>
+                <option value="plastico">Plastico</option>
+            </select><br><br>
+            
+            <fieldset>
+                <legend>Disponible Multicolor?:</legend><br>
+                <input type="radio" id="multicolorSi" name="multicolor" value="true">Si
+                <input type="radio" id="multicolorNo" name="multicolor" value="false">No
+                
+            </fieldset>
+            <br><br>
+
+            <fieldset>                
+                <legend>Aplica Combo?:</legend><br>
+                <input type="radio" id="comboSi" name="combo" value="true">Si
+                <input type="radio" id="comboNo" name="combo"value="false">No
+            </fieldset>
+            <br><br>
+
+            <label for="imagen">Imagen:</label><br>
+            <input type="file" id="imagen" name="imagen" accept=".png,.jpg" ><br><br>
+        </form>
+    </div>
+
+    <br><br><br>
+    <div class="boton">
+        Agregar Servicio
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <br>
+        Contacto
+        <br>
+        <br>
+
+        &copy; 2020 Esau Brizuela Ruiz
+    </footer>
+</body>
+
+</html>
