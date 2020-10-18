@@ -16,6 +16,7 @@ body{
 }
 
 .header{
+
     padding: 0px;
     margin: 0px;
     width: 100%;    
@@ -52,19 +53,25 @@ body{
 }
 
 footer {
+  width: 100%;
+  
     padding: 20px;
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+    display: inline-block;
   }
 
+  .Servicios{
+    display: inline-block;
+    float: none;
+  }
   
 [class*="row-"]{
-  float: left;
-  
-  
-  
+  float: left; 
+  display: flex;
 }
+
 [class*="col-"] {
     float: left;
     padding: 15px;
