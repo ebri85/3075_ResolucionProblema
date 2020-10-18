@@ -62,6 +62,8 @@ footer {
 [class*="row-"]{
   float: left;
   
+  
+  
 }
 [class*="col-"] {
     float: left;
@@ -69,6 +71,7 @@ footer {
     border: 1px solid coral;
     text-align: center;
     width: 33%;
+    display: inline-flex;
     
   }
 
@@ -81,7 +84,7 @@ footer {
    }
 
    .boton{
-        display: inline-block;
+      display: inline-block;
        padding: 5px;
        border: 1px solid coral;
        border-radius: 10px;
